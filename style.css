@@ -1,0 +1,47 @@
+body {
+  font-family: Verdana;
+}
+
+.cal-grid {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  border: 1px black solid;
+}
+.header-day {
+  float: left;
+  width: 14.088%;
+  height: 30px;
+  border-bottom: 1px black solid;
+  border-left: 1px black solid;
+  border-right: 1px black solid;
+  background-color: #A0E0E1;
+}
+
+.day {
+  float: left;
+  width: 14.088%;
+  height: 100px;
+  display: inline-block;
+  border-bottom: 1px black solid;
+  border-left: 1px black solid;
+  border-right: 1px black solid;
+  background-color: #C6FFDD;
+  position: relative;
+}
+.day-number {
+  display: inline-block;
+  vertical-align: middle;
+  line-height: 180px;
+  position: absolute;
+  top: 0px;
+}
+
+.event {
+  background-color: #38CCDC;
+  display:block;
+  height: 20%;
+  position: relative;
+  z-index: 1;
+}
